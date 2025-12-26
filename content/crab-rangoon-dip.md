@@ -17,5 +17,9 @@ params:
     - 1/2 tsp black pepper
 
     directions:
-    - TODO
+    - Set aside half of the mozzarella cheese
+    - Shred crab sticks
+    - Combine incredients in baking dish
+    - Add a layer of mozzarella cheese on top
+    - Bake at 350 degrees for 20 minutes
 ---
