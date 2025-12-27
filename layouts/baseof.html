@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
 <head>
+    {{ with resources.GetRemote "https://unpkg.com/tachyons@4.12.0/css/tachyons.css" | minify }}
+        <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ end }}
 </head>
 <body>
   <header>
   </header>
-  <main>
+  <main class="pa4">
     {{ block "main" . }}
       This will be replaced with content from the 
       corresponding "define" action found in the template
